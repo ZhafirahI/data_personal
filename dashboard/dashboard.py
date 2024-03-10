@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 import os 
 
 # Load Data
-print(f"Attempting to read data from: {os.path.abspath('main_data.csv')}")
-data = pd.read_csv("main_data.csv")
+data = pd.read_csv("dashboard/main_data.csv")
 
 def main():
     st.title('Influence of Season and Weather on Hourly in Daily Bicycle Rentals')
